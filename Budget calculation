@@ -1,0 +1,20 @@
+Int i, number;
+double budget;
+Int arr[]; 
+double Price = 0;
+double Total = 0;
+print "Enter how many products you want to calculate";
+read number;
+print "Enter prices of the products";
+for(i=0; i<arr.length; i++) 
+print “Product no.” + (i+1); 
+read arr[i]; 
+end for 
+Total = Total + arr[i];
+read budget; 
+print “Total price of products are” + Total; 
+If Total>budget then 
+print “Your purchase is over your budget”;
+Else 
+print “Your purchase is under your budget”;
+End if
